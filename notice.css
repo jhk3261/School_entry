@@ -26,20 +26,23 @@ main{
     margin: auto;
     margin-top: 40px;
 
-
     background-color: #fff;
     border-radius: 25px;
 }
 
 section {
     width: fit-content;
-    margin: 0 auto;
+    margin: 35px auto;
 
     display: flex;
     flex-direction: row;
     padding-top: 16px;
 
-    margin: 35px 0;
+
+}
+
+section:nth-child(1){
+    text-align: center;
 }
 
 .box {
@@ -87,7 +90,7 @@ a:hover {
 h1 {
     background: linear-gradient(to Right, rgb(255, 191, 0), orange);
 
-    width: 150px;
+    width: 175px;
 
     display: flex;
     justify-content: center;
